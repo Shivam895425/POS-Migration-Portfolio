@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Generated data and databases
+data/output/*
+!data/output/.gitkeep
+data/raw/
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+~$*
